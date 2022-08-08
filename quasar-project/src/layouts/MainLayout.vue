@@ -61,6 +61,12 @@ const linksList = [
     caption: 'Upload file for search index',
     icon: 'upload',
     link: '/upload-file'
+  },
+  {
+    title: 'Search Index',
+    caption: 'Search keyword from name index',
+    icon: 'search',
+    link: '/search'
   }
 ]
 

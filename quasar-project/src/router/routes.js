@@ -5,7 +5,8 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: 'upload-file', component: () => import('pages/UploadFile.vue') }
+      { path: 'upload-file', component: () => import('pages/UploadFile.vue') },
+      { path: 'search', component: () => import('pages/SearchIndex.vue') }
     ]
   },
 
